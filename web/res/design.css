@@ -1,0 +1,366 @@
+#logo{width:25%;height:45px;float:left;margin: 0 auto; background-size:70% 70%;background-size:cover;padding-top:8px;
+    margin: 0px; text-align: center;}
+#personPhoto{width:100px;height:100px;float:center;background:url("person.jpg") no-repeat center;margin: 0 auto; background-size:100% 100%;background-size:cover;}
+#daohang{width:75%;height:80px;background-color:rgba(0,0,165,1);margin: 0 auto;float:right}
+
+#centerPanel{width:100%;height:100%;
+    margin-left:0; margin-right:0px;float:center; background-size:100% 100%;background-size:100% auto;
+    margin-top:200px;
+    text-align:center;
+}
+
+#centerPanel2{width:100%;height:100%;
+    margin-left:0; margin-right:0px;float:center; background-size:100% 100%;background-size:100% auto;
+    margin-top:50px;
+    text-align:center;
+}
+#MainPanel{width:72%;height:800px;padding-left:5px;margin: 0 auto;float:right; background-color:#D2E9E7;background-size:100% 100%;background-size:contain;z-index:0;}
+
+#loginPanel{width:470px;height:370px;;;padding-left:5px;margin: 0 auto;float:right;background-color:white;
+    margin-right:150;
+    margin-top:150px;
+    padding-top:60px;}
+
+#centerPanel11{width:100%;height:650;background:url("blue.jpg") no-repeat;
+    margin-left:0; margin-right:0;float:left; background-size:100% 100%;background-size:100% auto;
+    margin-top:0px;}
+
+#photo{width:50%;height:400px;float:left;background:url("img/img1.jpg")no-repeat center center; background-size:100% 100%;background-size:contain;}
+#word_panel{width:45%;height:300px;float:right;}
+#us{width:80%;height:550px;margin:0 auto;;background-color:rgba(255,255,255,0.5);}
+
+
+
+.input_control{
+    width:360px;
+    margin:20px auto;
+}
+
+.input_control2{
+    width:700px;
+    margin:20px auto;
+}
+
+
+.input_control3{
+    width:700px;
+    height: 300px;
+    margin:20px auto;
+}
+
+.input_control4{
+    width:40px;
+    height: 28px;
+    margin:10px auto;
+}
+
+textarea{
+    box-sizing: border-box;
+    text-align:left;
+    font-size:1.4em;
+    height:2.7em;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    display:block;
+    outline:0;
+    padding:0 1em;
+    text-decoration:none;
+    width:100%;
+    height :300px;
+    resize:none;
+}
+
+
+input[type="text"],#btn1,#btn2{
+    box-sizing: border-box;
+    text-align:left;
+    font-size:1.4em;
+    height:2.7em;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    display:block;
+    outline:0;
+    padding:0 1em;
+    text-decoration:none;
+    width:100%;
+    height :50px;
+}
+
+input[type="submit"] {
+    -moz-user-select: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size:1.4em;
+    font-weight: bold;
+    height: 50px;
+    line-height: 20px;
+    background-color:rgb(0,130,255);
+    min-width: 360px;
+    padding: 0 0px;
+    text-align: center;
+}
+input[type="submit"]:hover {
+    background-color:rgb(0,75,255);
+    color: #ffffff;
+    background-image: -moz-linear-gradient(center top , #F8F8F8, #F1F1F1);
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+input[type="submit"]:focus {
+    border: 1px solid #4D90FE;
+    outline: medium none;
+}
+
+button {
+    -moz-user-select: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size:1.2em;
+    font-weight: bold;
+    height: 30px;
+    line-height: 21px;
+    background-color:rgb(0,130,255);
+    min-width: 80px;
+    padding: 0 0px;
+    text-align: center;
+}
+button:hover {
+    background-color:rgb(0,75,255);
+    color: #ffffff;
+    background-image: -moz-linear-gradient(center top , #F8F8F8, #F1F1F1);
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+button:focus {
+    border: 1px solid #4D90FE;
+    outline: medium none;
+}
+
+
+input[type="reset"] {
+    -moz-user-select: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size:1.4em;
+    font-weight: bold;
+    height: 50px;
+    line-height: 20px;
+    background-color:rgb(0,130,255);
+    min-width: 360px;
+    padding: 0 0px;
+    text-align: center;
+}
+input[type="reset"]:hover {
+    background-color:rgb(0,75,255);
+    color: #ffffff;
+    background-image: -moz-linear-gradient(center top , #F8F8F8, #F1F1F1);
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+input[type="reset"]:focus {
+    border: 1px solid #4D90FE;
+    outline: medium none;
+}
+
+
+input[type="text"]:focus{
+    border:1px solid #ff7496;
+}
+
+
+#photo2{width:50%;height:400px;float:left;background:url("img/img5.jpg")no-repeat center center; background-size:100% 100%;background-size:contain;}
+.font-yahei {
+    font-family:‘Microsoft YaHei‘,Tahoma;
+    font-size :20px;
+    color:white;
+}
+
+
+.font-yahei2 {
+    font-family:‘Microsoft YaHei‘,Tahoma;
+    font-size :30px;
+    bold;
+    color:black;
+}
+
+.font-yahei3 {
+    font-family:‘Microsoft YaHei‘,Tahoma;
+    font-size :21px;
+    bold;
+    color:black;
+}
+
+.font-yahei1 {
+    font-family:‘Microsoft YaHei‘,Tahoma;
+    font-size :20px;
+    color:white;
+}
+
+
+
+
+/* 程序名称：level2_menu.css
+   作用对象：edu_10_2_6.html*/
+#menu{  /* 定义外层图层样式*/
+    padding-left: 0px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #000000;
+
+    z-index:9999;
+}
+#menu ul{/*考虑到不同浏览器兼容性，去除列表项前的符号*/
+    margin: 0px;
+    padding: 0px;
+}
+#submenu{  /*定义存放子菜单的图层样式*/
+    width: 900px;  /* 不要为100% */
+    height: 28px;
+    text-align: center;
+    position: relative;
+}
+#menu ul li {  /*定义主菜单样式*/
+    height: 50px;
+    width: 115px;
+    list-style: none;  /*去除列表项符号*/
+    float: left;      /*列表项向左浮动 */
+    display: inline;   /*列表项为行内显示*/
+    font: 0.9em Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+#MainPanel ol li{
+
+    padding-left:1px;list-style: none;  /*去除列表项符号*/
+
+}
+
+
+ul li a {     /*定义主菜单中超链接样式*/
+    color: #FFF;
+    width: 114px;
+    margin: 0px;
+    padding: 0px 0px 0px 1px;
+    text-decoration: none;
+    display: block;      /*超链接以块方式显示 */
+    background: #000000;
+    line-height: 50px;
+
+
+}
+ul li #submenu ul li {  /*定义子菜单中列表项的高度，与主菜单不同 */
+    height: 25px;
+}
+ul li #submenu ul li a {  /*定义子菜单中超链接的样式 */
+    background: #000000;
+    line-height: 40px;
+    text-decoration: none;
+}
+ul li a:hover{  /*定义主菜单鼠标滑过时的样式 */
+    background: #666;
+
+}
+ul li #submenu{  /*定义子菜单初始状态为不显示 */
+    display: none;/*visibility: hidden;*/
+}
+#submenu ul li{   /*定义子菜单中列表项的样式 */
+    height: 24px;
+    width: 113px;
+    list-style: none;
+    float: left;
+    display: inline;
+    font: 0.8em Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul li:hover #submenu{  /* 主菜单鼠标滑过时显示子菜单*/
+    display: block;/*visibility: visible;*/
+}
+ul li #submenu ul li a:hover{
+    background: #333;/* 子菜单鼠标滑过时指定新的背景颜色*/
+}
+
+
+#wrap{
+    padding-left:20px;
+    padding-top:20px;
+    margin-top:100px;
+    margin-right:150px;
+    width:415px;
+    height:450px;
+    background-color:white;
+    float:right;
+}
+
+#result{
+
+    float:left;
+    height:60px;
+    width:390px;
+    border:solid 1px;
+    margin-bottom:1px;
+
+    background-color:white;
+}
+
+#op{
+
+    height:310px;
+    width:390px;
+
+
+
+}
+/* Table Head */
+table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+table td, table th
+{
+    border: 1px solid #cad9ea;
+    color: #666;
+    height: 30px;
+}
+table thead th
+{
+    background-color: #CCE8EB;
+    width: 100px;
+}
+table tr:nth-child(odd)
+{
+    background: #fff;
+}
+table tr:nth-child(even)
+{
+    background: #F5FAFA;
+}
